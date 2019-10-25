@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Mara Goodman</div>
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <div class="card">
+        <h2>Contact</h2>
+
+        <form action="/action_page.php">
+          <div class="row">
+            <div class="name">
+              <label for="name">Name</label>
+            </div>
+            <div class="name">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name.."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="email">
+              <label for="email">Email</label>
+            </div>
+            <div class="email">
+              <input
+                type="text"
+                id="email"
+                name="email"
+                placeholder="example@gmail.com"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="message">
+              <label for="message">Message</label>
+            </div>
+            <div class="message">
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Write something.."
+                style="height:200px;"
+              ></textarea>
+            </div>
+            <div class="row">
+              <input type="submit" value="Submit" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p>Copyright &copy;</p>
+    </footer>
+  </body>
+</html>
